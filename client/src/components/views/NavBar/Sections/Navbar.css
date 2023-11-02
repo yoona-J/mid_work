@@ -1,0 +1,136 @@
+@import '~antd/dist/antd.css';
+
+.menu {
+  padding: 0 20px;
+  overflow: auto;
+  background-color: #282828;
+  text-align: center;
+}
+
+.menu__container {
+  display: inline-flex;
+  justify-content: 'space-between';
+  gap: 100px;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.menu__logo {
+  margin: 0px auto;
+}
+
+.menu__container .menu_left {
+  float: left;
+}
+
+.menu__mobile-button {
+  float: right;
+  background: #fff;
+}
+
+.menu__container .ant-menu-item,
+.menu__container .ant-menu-submenu-title {
+  padding: 1px 20px;
+}
+
+.ant-btn {
+  padding: 0;
+}
+
+.ant-menu-horizontal {
+  border-bottom: #fff;
+  color: #fff;
+  background-color: #fff;
+}
+
+.ant-drawer-content-wrapper {
+  width: 220px !important;
+}
+
+.ant-drawer-content {
+  background-color: #343434;
+}
+
+.ant-menu {
+  background: #343434;
+}
+
+.ant-menu-item {
+  color: #fff;
+}
+
+.ant-menu-inline {
+  border-right: none;
+}
+
+@media screen and (max-width: 1400px) {
+
+  .menu__container {
+    gap: 50px !important;
+  }
+
+  .menu__container hr {
+    width: 200px !important;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .menu__container hr {
+    width: 100px !important;
+  }
+
+  .menu__container {
+    gap: 30px !important;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .menu__container hr {
+    width: 80px !important;
+  }
+}
+
+@media screen and (max-width: 630px) {
+  .menu__container {
+    gap: 20px !important;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .menu__container {
+    gap: 10px !important;
+  }
+
+  .menu__logo img {
+    width: 78px !important;
+    height: 39px !important;
+  }
+
+  .anticon.anticon-home {
+    font-size: 25px !important;
+  }
+
+  .anticon.anticon-menu {
+    font-size: 25px !important;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .menu__container hr {
+    width: 60px !important;
+  }
+
+  .menu__container {
+    gap: 7px !important;
+  }
+}
+
+@media screen and (max-width: 330px) {
+  .menu__container hr {
+    width: 40px !important;
+  }
+
+  .menu__container {
+    gap: 7px !important;
+  }
+}

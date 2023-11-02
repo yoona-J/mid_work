@@ -1,0 +1,85 @@
+.font {
+    font-family: 'GowunBatang-Regular';
+    font-style: normal;
+}
+
+@media screen and (max-width: 1630px) {
+    .nft_main_div img {
+        width: 640px !important;
+        height: 400px !important; 
+    }
+
+    .nft_main_div {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        margin: 90px 56px 90px 56px !important;
+    }
+
+    .nft_full_div {
+        height: 100% !important;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .nft_main_div img {
+        width: 480px !important;
+        height: 300px !important;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .nft_full_div {
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .nft_main_div img {
+        width: 400px !important;
+        height: 250px !important;
+    }
+
+    .nft_main_div {
+        margin: 0px 50px 0px 50px !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .nft_main_div img {
+        width: 320px !important;
+        height: 200px !important;
+    }
+
+    .nft_div_padding {
+        padding: 0 !important;
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .nft_main_div {
+        margin: 0 !important;
+        gap: 30px !important;
+    }
+
+    .nft_main_div img {
+        width: 240px !important;
+        height: 150px !important;
+    }
+
+    .nft_title_div {
+        font-size: 18px !important;
+    }
+
+    .nft_letter_div {
+        font-size: 13px !important;
+    }
+}
+
+@media screen and (max-width: 281px) {
+
+    .nft_main_div img {
+        width: 200px !important;
+        height: 125px !important;
+    }
+}

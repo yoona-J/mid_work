@@ -1,0 +1,143 @@
+#gradient {
+    font-family: 'Inter', sans-serif ;
+    font-style: normal;
+    background: linear-gradient(to right, #C76BFF, #ffb444, #ffb444, #ffb444, #ffb444, #ffb444, #ffb444);
+    color: transparent;
+    background-clip: text;
+}
+
+#text {
+    font-family: 'Roboto';
+    font-style: normal;
+}
+
+.flow-text {
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+    transition: 0.3s;
+    font-size: 96px;
+    letter-spacing: 0.1em;
+    font-weight:bold;
+    color: #363636;
+}
+.flow-wrap {
+  animation: textLoop 10s linear infinite;
+  padding-right: 1.4881vw;
+}
+
+@keyframes textLoop {
+  0% {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
+  100% {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .flow-container {
+    display: none;
+  }
+
+  .logo__bar {
+    padding-top: 48px;
+  }
+
+  .logo__bar hr {
+    width: 70% !important;
+  }
+
+  .container {
+    /* display: flex; */
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 751px) {
+
+  .logo__bar {
+    padding-top: 25px;
+  }
+
+  .logo__bar img {
+    width: 78px !important;
+    height: 39px !important;
+  }
+
+  .logo__bar hr {
+    margin-top: 20px !important;
+  }
+
+  .main_div {
+    background: none !important;
+    padding: 0 !important;
+  }
+
+  .image_div {
+    width: 300px !important;
+    height: 380px !important;
+  }
+
+  #gradient {
+    font-size: 40px !important;
+  }
+
+  #text {
+    font-size: 26px !important;
+  }
+
+  .container Button {
+    width: 136px !important;
+    height: 45px !important;
+  }
+
+  .date_title {
+    font-size: 18px !important;
+  }
+
+  .date {
+    font-size: 22px !important;
+  }
+}
+
+@media screen and (max-width: 387px) {
+  .logo__bar hr {
+    width: 60% !important;
+  }
+
+  .image_div {
+    width: 200px !important;
+    height: 245px !important;
+  }
+
+  #gradient {
+    font-size: 30px !important;
+  }
+
+  #text {
+    font-size: 16px !important;
+  }
+
+  .container Button {
+    width: 100px !important;
+    height: 38px !important;
+    font-size: 12px !important;
+  }
+
+  .date_title {
+    font-size: 14px !important;
+  }
+
+  .date {
+    font-size: 18px !important;
+  }
+
+  .date_div {
+    margin-top: 50px !important;
+  }
+
+}

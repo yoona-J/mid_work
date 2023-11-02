@@ -1,0 +1,113 @@
+.font {
+    font-family: 'GowunBatang-Regular';
+    font-style: normal;
+}
+
+@media screen and (min-width: 377px) {
+    
+    .ant-card-meta-description {
+        color: #C2C2C2 !important;
+        font-size: 15px !important;
+    }
+
+    .ant-card-meta-title {
+        color: #C2C2C2 !important;
+        font-size: 15px !important;
+        letter-spacing: 0.3em;
+    }
+}
+
+@media screen and (max-width: 1766px) {
+    .museum_main_div {
+        justify-content: space-between !important;
+        gap: 10px !important;
+    }
+}
+
+@media screen and (max-width: 1431px) {
+    .museum_category_button_padding {
+        padding-top: 78px !important;
+    }
+
+    .museum_card_div {
+        margin-top: 45px !important;
+    }
+}
+
+@media screen and (max-width: 951px) {
+    .museum_main_div {
+        justify-content: center !important;
+    }
+
+    .museum_category_button p {
+        font-size: 16px !important;
+    }
+
+    .museum_category_button_padding {
+        padding-top: 40px !important;
+    }
+
+    .museum_more_button Button {
+        width: 110px !important;
+        height: 47px !important;
+    }
+
+    .museum_more_button p {
+        font-size: 18px !important;
+        padding-top: 8px !important;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .museum_category_button {
+        width: 130px !important;
+        height: 37px !important;
+    }
+
+    .museum_category_button p {
+        font-size: 14px !important;
+        padding-top: 8px !important;
+    }
+}
+
+@media screen and (max-width: 376px) {
+
+    .ant-card {
+        width: 240px !important;
+        height: 320px !important;   
+    }
+
+    .ant-card-body {
+        padding: 10px !important;
+    }
+
+    .ant-card-cover img {
+        width: 200px !important;
+        height: 200px !important;
+    }
+
+    .ant-card-meta-title {
+        font-size: 16px !important;
+        color: #C2C2C2 !important;
+        letter-spacing: 0.3em;
+    }
+
+    .ant-card-meta-description {
+        font-size: 16px !important;
+        color: #C2C2C2 !important;
+    }
+
+    .museum_category_button_padding {
+        padding-top: 10px !important;
+    }
+
+    .museum_more_button Button {
+        width: 90px !important;
+        height: 40px !important;
+    }
+
+    .museum_more_button p {
+        font-size: 16px !important;
+        padding-top: 6px !important;
+    }    
+}

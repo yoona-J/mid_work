@@ -1,0 +1,136 @@
+.font {
+    font-family: 'GowunBatang-Regular';
+    font-style: normal;
+}
+
+tr, td {
+    padding: 10px;
+}
+
+@media screen and (max-width: 1620px) {
+    .detail_sub_div {
+        display: flex;
+        flex-direction: column;
+        align-content: space-around;
+        align-items: center;
+        gap: 50px !important;
+    }
+}
+
+@media screen and (max-width: 1070px) {
+    .detail_sub_div img {
+        width: 430px !important;
+        height: 430px !important;
+    }
+
+    .detail_main_div_padding {
+        padding: 90px 100px 111px 100px !important;
+    }
+
+    .detail_carousel_div {
+        margin: 0px auto;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .detail_sub_div img {
+        width: 380px !important;
+        height: 380px !important;
+    }
+}
+
+
+@media screen and (max-width: 730px) {
+    .detail_sub_div img {
+        width: 330px !important;
+        height: 330px !important;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .detail_main_div {
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .detail_main_div_padding {
+        padding: 0px 57px 110px 57px !important;
+    }
+
+    .detail_full_div {
+        padding: 0 !important;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .detail_main_div_padding {
+        padding: 0px 0px 110px 0px !important;
+    }
+    .ant-modal {
+        width: 250px !important;
+    }
+    .detail_modal_btn {
+        width: 220px !important;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .detail_sub_div img {
+        width: 280px !important;
+        height: 280px !important;
+    }
+
+    .detail_title {
+        font-size: 20px !important;
+    }
+
+    .detail_letter {
+        font-size: 14px !important;
+    }
+
+    .detail_text_div Button {
+        width: 90px !important;
+        height: 40px !important;
+    }
+
+    .detail_button {
+        margin-right: 50px !important;
+    }
+
+    .detail_main_div table {
+        width: 100% !important;
+    }
+}
+
+@media screen and (max-width: 340px) {
+    .detail_sub_div img {
+        width: 250px !important;
+        height: 250px !important;
+    }
+}
+
+@media screen and (max-width: 315px) {
+    .detail_sub_div img {
+        width: 230px !important;
+        height: 230px !important;
+    }
+}
+
+.ant-tabs-ink-bar {
+    background-color: #CCCCCC !important;
+    height: 3px !important;
+
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+    color: #fff !important;
+}
+
+.ant-tabs-nav .ant-tabs-tab:hover {
+    color: #fff !important;
+}
+
+.ant-tabs-nav-wrap {
+    margin-bottom: 0px;
+}
